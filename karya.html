@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KARYA-NGUMPUL KOMIK BOGOR</title>
+<link rel="icon" type="image/x-icon" href="src/favicon.ico">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="mobile-header">
+    <div class="logo"><img src="src/nkbalon.png"></div>
+    <div class="burger" id="burger">☰</div>
+	<div class="lang-switch">
+    <button onclick="setLanguage('id')">ID</button>
+    <button onclick="setLanguage('en')">EN</button>
+</div>
+</header>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div class="menu-title-img">
+    <a href="index.html"><img src="src/nkbalon.png" alt="Menu"></a>
+</div>
+        <ul>
+            <li><a href="index.html" data-id="BERANDA" data-en="HOME" data-jp="ホーム">BERANDA</a></li>
+            <li><a href="karya.html" data-id="KARYA" data-en="WORKS" data-jp="制作">KARYA</a></li>
+            <li><a href="join.html" data-id="GABUNG" data-en="JOIN" data-jp="加入する">GABUNG</a></li>
+            <li><a href="about.html" data-id="TENTANG" data-en="ABOUT" data-jp="コミュニティについて">TENTANG</a></li>
+        </ul>
+<div class="lang-switch">
+    <span onclick="setLanguage('id')">ID</span>
+    <span class="divider">|</span>
+    <span onclick="setLanguage('en')">EN</span>
+    <span class="divider">|</span>
+	<span onclick="setLanguage('jp')">JP</span>
+</div>
+    </aside>
+    <!-- CONTENT -->
+<main class="content">
+
+    <section class="block">
+        <h2 data-id="KARYA DAN PRODUKSI"
+            data-en="WORKS & PRODUCTIONS"
+            data-jp="制作・製作">
+            KARYA DAN PRODUKSI
+        </h2>
+
+        <p data-id="Karya dan Produksi Member Ngumpul Komik Bogor."
+           data-en="Works and Productions by Members of Ngumpul Komik Bogor."
+           data-jp="「Ngumpul Komik Bogor」メンバーによる作品と制作。">
+            Karya dan Produksi Member Ngumpul Komik Bogor.
+        </p>
+    </section>
+
+    <div class="gallery">
+        <div class="card"><img src="src/moses.jpg"></div>
+        <div class="card"><img src="src/koncara.jpg"></div>
+        <div class="card"><img src="src/Lumpia.png"></div>
+        <div class="card"><img src="src/Self Love.jpg"></div>
+        <div class="card"><img src="src/gambar5.jpg"></div>
+        <div class="card"><img src="src/gambar6.jpg"></div>
+    </div>
+
+    <footer class="content-footer">
+        © 2026 NGUMPUL KOMIK BOGOR
+    </footer>
+
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
